@@ -1,0 +1,15 @@
+h1{
+    color:rgb(182, 55, 182);
+    font-size: 24px;
+    text-align: center;
+}
+div#imagem {
+    text-align: center;
+}
+body{
+    background-color: rgb(253, 215, 222);
+    background-image: url(Imagens/pantera-cor-de-rosa.jpg);
+}
+p, ol, ul{
+    font-weight: bold;
+}
