@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
 <head>
     <title> A Pantera cor-de-rosa  </title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -9,10 +15,16 @@
         <img src="Imagens/pantera02.png" height="240" width="380">
     </div>
     <a href= "https://recreiobrasil.wixsite.com/oficial/single-post/2016/04/02/descubra-algumas-curiosidades-sobre-o-cl%C3%A1ssico-desenho-a-pantera-corderosa"> Clique aqui para abrir o google </a>
-    <h5> A Pantera cor-de-rosa foi um personagem criado para fazer uma introdução ao filme Pantera cor-de-rosa, de Blake Edwards. </h5>
+    <head>
+        <h3> Sobre a Pantera </h3>
+    </head>
+    <h5 id="txt"> A Pantera cor-de-rosa foi um personagem criado para fazer uma introdução ao filme Pantera cor-de-rosa, de Blake Edwards. </h5>
     <p> <br> The Pink Panther é uma franquia de mídia americana focada principalmente em uma série de filmes de comédia e mistério apresentando um inepto detetive da polícia francesa, o inspetor Jacques Clouseau. <br> 
         A franquia começou com o lançamento do clássico filme The Pink Panther em 1963.</p>
     </p>
+    <head>
+        <h2> Fatos numerados: </h2>
+</head>
         <ol>
         <li> A Pantera Cor-de-Rosa estreou na TV em 1969. Os 124 episódios, cada um com 6 minutos, chegaram ao Brasil em 1973, exibidos inicialmente pela TV Tupi.</li>
         <li> O filme estreou primeiro na Itália, em 18 de dezembro de 1963, e depois nos Estados Unidos, em 18 de março de 1964. </li>
@@ -45,4 +57,20 @@
             <td> França </td>
         </tr>
     </table>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/smiEhxQZODA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </p>
+	<div id="audio">
+        <div>
+            <button onclick="document.getElementById('player').play()">Play</button>
+	  <button onclick="document.getElementById('player').pause()">Pause</button>
+	  <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+	  <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+	
+        </div>
+	  
+    <audio autoplay="autoplay" controls="controls">
+    <source src="Música Pantera.mp3" type="audio/mp3" />
+    </audio>
+    </div>
 </body>
