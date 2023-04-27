@@ -13,3 +13,19 @@ body{
 p, ol, ul{
     font-weight: bold;
 }
+h5#txt{
+    font-size: 19px;
+}
+h3{
+    color: rgb(141, 11, 141);
+    font-size: 24px;
+    text-align: center;
+}
+h2{
+    color:rgb(141, 11, 141);
+    font-size: 24px;
+    text-align: center;
+}
+div#audio{
+    text-align: center;
+}
